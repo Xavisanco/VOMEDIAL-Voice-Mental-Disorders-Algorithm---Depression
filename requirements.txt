@@ -1,0 +1,27 @@
+
+## Usage
+Requiered relevant pakages in Python:
+
+emd==0.8.1
+keras==3.9.0
+librosa==0.11.0
+matplotlib==3.10.1
+matplotlib-inline==0.1.7
+numba==0.61.0
+numpy==2.0.2
+pandas==2.2.3
+pyemd==1.0.0
+scikit-learn==1.6.1
+scipy==1.15.2
+seaborn==0.13.2
+soundfile==0.13.1
+sympy==1.13.1
+tqdm==4.67.1
+xgboost==2.1.4
+
+## Citation
+If you use this algorithm in academic work, please cite:
+
+Xavier Sanchez Corrales & Jordi Sole Casals PhD, 
+"Feature Extraction from Speech Signals Using Empirical Mode Decomposition for Depression Detection: A Comparative Study with Machine Learning Models", 
+[Journal/Conference], 2025.
