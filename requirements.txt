@@ -22,6 +22,6 @@ xgboost==2.1.4
 ## Citation
 If you use this algorithm in academic work, please cite:
 
-Xavier Sanchez Corrales & Jordi Sole Casals PhD, 
+Xavier Sanchez Corrales & Jordi Solé-Casals, 
 "Feature Extraction from Speech Signals Using Empirical Mode Decomposition for Depression Detection: A Comparative Study with Machine Learning Models", 
-[Journal/Conference], 2025.
+Computer Speech & Language, 2025.

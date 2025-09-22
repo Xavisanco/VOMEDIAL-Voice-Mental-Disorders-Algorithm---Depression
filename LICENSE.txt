@@ -1,6 +1,6 @@
 Academic/NonCommercial License
 
-Copyright (c) 2025 F JAVIER SANCHEZ CORRALES & JORDI SOLÉ CASALS
+Copyright (c) 2025 F Javier Sánchez Corrales & Jordi Solé-Casals
 
 Permission:
 Permission is granted, free of charge, to use, copy, modify, and distribute this software solely for academic, research, and educational purposes.
