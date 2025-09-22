@@ -1,6 +1,6 @@
 
 ## Usage
-Requiered relevant pakages in Python:
+requiered relevant pakages in Python:
 
 emd==0.8.1
 keras==3.9.0
