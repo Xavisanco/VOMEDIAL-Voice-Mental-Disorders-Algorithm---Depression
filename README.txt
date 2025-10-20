@@ -1,50 +1,91 @@
-# Algorithm VOMEDIAL (Voice Mental Disorders Algorithm)
-
-This repository contains the implementation of the algorithm described in the article:
-"FEATURE EXTRACTION IN VOICE SIGNALS FOR DEPRESSION DETECTION: A Machine Learning Perspective with Empirical Mode Decomposition". 
-
-## Description
-
-This algorithm decomposes the voice signals of clinically selected individuals with depression and healthy controls using the EMD (Empirical Mode Decomposition) method. 
-It implements a voice signal processing and modeling pipeline to distinguish between two groups (e.g., individuals with depression vs. healthy), 
-leveraging intrinsic mode functions (IMFs) and machine learning techniques.
-
-Comparison of IMFs using Gaussian kernel
-A similarity function based on a Gaussian kernel is defined to compare pairs of signals (IMFs) between the two groups.
-For each IMF (out of 16 possible), the average similarity between groups is calculated.
-IMFs whose similarity is less than or equal to a fixed threshold (1e-10) are selected, as they are considered to contain relevant discriminative information.
-
-Extraction of statistics from selected IMFs
-Selected IMF signals are segmented into windows.
-For each window, descriptive statistics are extracted: skewness, kurtosis, median, standard deviation, and mean.
-These statistics are aggregated to form a feature vector for each signal.
-
-Class balancing
-Random sampling is applied to equalize the number of samples between the two groups, avoiding bias in model training.
-
-Data splitting and scaling
-Balanced data are split into training and test sets.
-Normalization (StandardScaler) is applied to improve model performance.
-
-Model training and tuning
-A Gradient Boosting model is defined, and hyperparameter tuning is performed using GridSearchCV with cross-validation.
-The model is evaluated on the test set, and performance metrics are calculated: accuracy, F1-score, precision, recall, and specificity.
-
-Results visualization
-A confusion matrix and ROC curve are generated to visualize model performance.
-Optimal parameters and obtained metrics are stored and displayed.
-
-Conclusion:
-The algorithm allows automatic identification of the most relevant frequency bands (IMFs) for classification between groups, 
-extraction of statistical features from signals, data balancing, and supervised model training—all within a reproducible and visualizable pipeline. 
-This facilitates the analysis of vocal biomarkers in clinical and research contexts.
-
 ## License
-This software is available under the **Academic/NonCommercial License**:
+This software is available under the Academic/NonCommercial License:
 
 - Free for academic, research, and educational use.
 - Commercial use requires a separate license.
 
 For commercial licensing inquiries, contact: xavisanco@gmail.com & jordi.sole@uvic.cat
 
+VOMEDIAL: Voice Mental Disorders Algorithm
 
+VOMEDIAL (Voice Mental Disorders Algorithm) is an academic implementation for analyzing and classifying voice signals in individuals with and without depression.
+It is based on the paper:
+
+Sánchez-Corrales, F. J., & Solé-Casals, J. (2025). Feature Extraction in Voice Signals for Depression Detection: A Machine Learning Perspective with Empirical Mode Decomposition.
+
+OVERVIEW
+
+This algorithm processes voice signals from clinically evaluated participants (depressed vs. healthy) using Empirical Mode Decomposition (EMD) and machine learning techniques.
+
+Main steps:
+
+Signal Decomposition
+Each voice signal is decomposed into Intrinsic Mode Functions (IMFs) using EMD.
+
+Similarity Analysis
+Gaussian kernel similarity is computed between IMFs from both groups.
+IMFs with similarity ≤ 1e-10 are selected as relevant.
+
+Feature Extraction
+Selected IMFs are divided into windows.
+Descriptive statistics are extracted: mean, median, standard deviation, skewness, kurtosis.
+
+Data Balancing
+Random undersampling ensures equal sample sizes per class.
+
+Model Training
+Gradient Boosting model trained and tuned using GridSearchCV with cross-validation.
+Metrics: Accuracy, Precision, Recall, F1-score, Specificity.
+
+Visualization
+ROC curve and confusion matrix display classification performance.
+
+RESULTS
+
+VOMEDIAL automatically identifies the most discriminative frequency bands (IMFs) and builds robust models for differentiating healthy and depressed voice samples.
+This facilitates the exploration of vocal biomarkers for mental health in a reproducible, transparent, and scalable way.
+
+USAGE
+
+Clone the repository and install the dependencies:
+
+git clone https://github.com/Xavisanco/VOMEDIAL-Voice-Mental-Disorders-Algorithm---Depression
+
+cd VOMEDIAL-Voice-Mental-Disorders-Algorithm---Depression
+pip install -r requirements.txt
+
+Run the main script:
+
+python female_eval_model.py
+
+Note: The original clinical dataset used to develop the algorithm is not included in this repository due to ethical and data protection restrictions.
+Users must adapt their own data to the same input structure and preprocessing format described in the documentation to run the algorithm properly.
+
+LICENSE
+
+This code is released under an Academic/NonCommercial License.
+Free for academic and research purposes.
+Commercial use requires explicit written permission from the authors.
+
+See the full license text in LICENSE.txt.
+
+AUTHORS
+
+F. Javier Sánchez Corrales
+Email: xavisanco@gmail.com
+
+Jordi Solé-Casals
+Email: jordi.sole@uvic.cat
+
+CITATION
+
+If you use this code, please cite:
+
+Sánchez-Corrales, F. J., & Solé-Casals, J. (2025).
+Feature Extraction in Voice Signals for Depression Detection:
+A Machine Learning Perspective with Empirical Mode Decomposition.
+
+NOTES
+
+This tool is intended for research and educational purposes only.
+It must not be used for clinical diagnosis or commercial deployment without prior authorization.
