@@ -81,9 +81,10 @@ CITATION
 
 If you use this code, please cite:
 
-Sánchez-Corrales, F. J., & Solé-Casals, J. (2025).
-Feature Extraction in Voice Signals for Depression Detection:
-A Machine Learning Perspective with Empirical Mode Decomposition.
+Sánchez-Corrales, Xavier., & Solé-Casals, Jordi. (2025).
+Analyzing Male Depression Using Empirical Mode Decomposition. 
+In Proceedings of the 18th International Joint Conference on Biomedical Engineering Systems and Technologies - BIOSIGNALS; 
+ISBN 978-989-758-731-3; ISSN 2184-4305, SciTePress, pages 886-892. DOI: 10.5220/0013157600003911
 
 NOTES
 
