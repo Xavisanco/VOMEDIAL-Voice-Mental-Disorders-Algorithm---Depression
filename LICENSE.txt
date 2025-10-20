@@ -1,17 +1,26 @@
 Academic/NonCommercial License
+---------------------------------------
 
-Copyright (c) 2025 F Javier Sánchez Corrales & Jordi Solé-Casals
+Copyright (c) 2025  
+F. Javier Sánchez Corrales & Jordi Solé-Casals
 
 Permission:
-Permission is granted, free of charge, to use, copy, modify, and distribute this software solely for academic, research, and educational purposes.
+Permission is hereby granted, free of charge, to use, copy, modify, and distribute this software and its documentation solely for academic, research, or educational purposes, provided that proper acknowledgment of the authors is included in any derivative work or publication.
 
 Restriction:
-Any use of this software for commercial, industrial, or professional service purposes requires a separate commercial license granted in writing by the authors.  
-For further information, please contact: xavisanco@gmail.com & jordi.sole@uvic.cat
+Any use of this software, in whole or in part, for commercial, industrial, clinical, or professional service purposes is strictly prohibited without a separate commercial license granted in writing by the authors.  
+For commercial licensing inquiries, please contact:  
+xavisanco@gmail.com & jordi.sole@uvic.cat
 
 Disclaimer of Warranty:
 This software is provided "as is", without any express or implied warranty, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.  
-In no event shall the authors be liable for any claim, damages, or other liability arising from the use of this software.
+In no event shall the authors or their affiliated institutions be liable for any claim, damages, or other liability arising from the use of this software.
 
 Governing Law:
-This agreement shall be governed by and construed in accordance with the laws of Spain, in particular the Spanish Intellectual Property Law (Real Decreto Legislativo 1/1996) and applicable European Union copyright directives.
+This agreement shall be governed by and construed in accordance with the laws of Spain, particularly the Spanish Intellectual Property Law (Real Decreto Legislativo 1/1996) and relevant European Union copyright directives.
+
+Acknowledgment:
+Users must cite the following work in any publication, presentation, or derivative use of this software:
+
+> Sánchez-Corrales, Xavier., & Solé-Casals, J. (2025). Feature Extraction in Voice Signals for Depression Detection: A Machine Learning Perspective with Empirical Mode Decomposition.
+
