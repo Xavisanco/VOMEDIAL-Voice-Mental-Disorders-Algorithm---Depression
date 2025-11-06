@@ -81,6 +81,11 @@ CITATION
 
 If you use this code, please cite:
 
+Xavier Sánchez Corrales, Jordi Solé-Casals,
+Feature extraction from speech signals using empirical mode decomposition for depression detection: A comparative study with machine learning models,
+Computer Speech & Language, 2025, 101898, ISSN 0885-2308,
+https://doi.org/10.1016/j.csl.2025.101898.
+
 Sánchez-Corrales, Xavier., & Solé-Casals, Jordi. (2025).
 Analyzing Male Depression Using Empirical Mode Decomposition. 
 In Proceedings of the 18th International Joint Conference on Biomedical Engineering Systems and Technologies - BIOSIGNALS; 
