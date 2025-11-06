@@ -22,6 +22,12 @@ This agreement shall be governed by and construed in accordance with the laws of
 Acknowledgment:
 Users must cite the following work in any publication, presentation, or derivative use of this software:
 
+Citation: 
+> Xavier Sánchez Corrales, Jordi Solé-Casals,
+Feature extraction from speech signals using empirical mode decomposition for depression detection: A comparative study with machine learning models,
+Computer Speech & Language, 2025, 101898, ISSN 0885-2308,
+https://doi.org/10.1016/j.csl.2025.101898.
+
 > Sánchez-Corrales, Xavier., & Solé-Casals, Jordi. (2025).
 Analyzing Male Depression Using Empirical Mode Decomposition. 
 In Proceedings of the 18th International Joint Conference on Biomedical Engineering Systems and Technologies - BIOSIGNALS; 
